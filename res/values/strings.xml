@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Enter your name here:</string>
+    <string name="app_name">RandomQuotes</string>
+	<string name="press">Press me!</string>
+	<string name="genRan">Generate random quote!</string>
+	
+</resources>
