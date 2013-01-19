@@ -2,6 +2,7 @@ package com.gec.rq;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.style.QuoteSpan;
 import android.view.View.OnClickListener;
 import android.view.View;
 import android.widget.Toast;
@@ -42,6 +43,7 @@ public class MainActivity extends Activity
 					try
 					{
 						quote = (EditText)findViewById(R.id.Quote);
+                        db.insertQuote(quote.getText().toString());
 						id = db.getAllEntries();
 
 						Context context = getApplicationContext();
