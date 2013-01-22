@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
-		
-	<EditText
-		android:id="@+id/Quote"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content" />
-	
-	<Button 
-		android:id="@+id/go"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/press" />
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"/>
 
-	<Button 
-		android:id="@+id/genRan"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/genRan" />
+    <EditText
+            android:id="@+id/Quote"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/go"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/press"/>
+
+    <Button
+            android:id="@+id/genRan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/genRan"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get File"
+            android:id="@+id/getFile"/>
 
 </LinearLayout>
